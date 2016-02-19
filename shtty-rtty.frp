@@ -1,0 +1,58 @@
+.HEA
+.TIM 11/6/2015 22:49:23
+.APP "Eeschema 4.0.0-rc1-stable"
+
+.ADD_COM     U2     "PC817"
+.ADD_COM     U1     "PC817"
+.ADD_COM     P1     "CONN_01X12"
+.ADD_COM     P2     "CONN_01X12"
+.ADD_COM     D1     "GREEN"
+.ADD_COM     R1     "1K"
+.ADD_COM     R5     "1k"
+.ADD_COM     R4     "1K"
+.ADD_COM     R2     "1K"
+.ADD_COM     R3     "1K"
+.ADD_COM     D2     "RED"
+.ADD_COM     D3     "YELLOW"
+.ADD_COM     D4     "BLUE"
+
+
+.ADD_TER   D3   2     "Net-(D3-Pad2)"
+.TER       R3   2
+
+.ADD_TER   R5   2     "Earth"
+.TER       P2   1
+            R1   2
+            D3   1
+            D2   1
+            R4   2
+
+.ADD_TER   R2   2     "Net-(D2-Pad2)"
+.TER       D2   2
+
+.ADD_TER   U2   2     "Net-(D4-Pad1)"
+.TER       D4   1
+            R5   1
+
+.ADD_TER   U1   2     "Net-(R4-Pad1)"
+.TER       R4   1
+
+.ADD_TER   U1   1     "Net-(D4-Pad2)"
+.TER       P1   1
+            D4   2
+            R3   1
+
+.ADD_TER   U2   1     "Net-(P1-Pad4)"
+.TER       R2   1
+            P1   4
+
+.ADD_TER   U1   3     "Net-(U1-Pad3)"
+.TER       U2   3
+
+.ADD_TER   D1   1     "Net-(D1-Pad1)"
+.TER       R1   1
+
+.ADD_TER   D1   2     "Net-(D1-Pad2)"
+.TER       P1   12
+
+.END

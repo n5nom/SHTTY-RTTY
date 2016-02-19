@@ -1,0 +1,79 @@
+( { EESchema Netlist Version 1.1 created  11/6/2015 22:49:11 }
+ ( /563B9C53 $noname  U2 PC817
+  (    1 Net-(P1-Pad4) )
+  (    2 Net-(D4-Pad1) )
+  (    3 Net-(U1-Pad3) )
+  (    4 ? )
+ )
+ ( /563B9CB6 $noname  U1 PC817
+  (    1 Net-(D4-Pad2) )
+  (    2 Net-(R4-Pad1) )
+  (    3 Net-(U1-Pad3) )
+  (    4 ? )
+ )
+ ( /563BA447 $noname  P1 CONN_01X12
+  (    1 Net-(D4-Pad2) )
+  (    2 ? )
+  (    3 ? )
+  (    4 Net-(P1-Pad4) )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 Net-(D1-Pad2) )
+ )
+ ( /563BA46E $noname  P2 CONN_01X12
+  (    1 Earth )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+ )
+ ( /563BCE05 $noname  D1 GREEN
+  (    1 Net-(D1-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /563BCEBF $noname  R1 1K
+  (    1 Net-(D1-Pad1) )
+  (    2 Earth )
+ )
+ ( /563CD03D $noname  R5 1k
+  (    1 Net-(D4-Pad1) )
+  (    2 Earth )
+ )
+ ( /563CD0D9 $noname  R4 1K
+  (    1 Net-(R4-Pad1) )
+  (    2 Earth )
+ )
+ ( /563D88D2 $noname  R2 1K
+  (    1 Net-(P1-Pad4) )
+  (    2 Net-(D2-Pad2) )
+ )
+ ( /563D8918 $noname  R3 1K
+  (    1 Net-(D4-Pad2) )
+  (    2 Net-(D3-Pad2) )
+ )
+ ( /563D89CE $noname  D2 RED
+  (    1 Earth )
+  (    2 Net-(D2-Pad2) )
+ )
+ ( /563D8C54 $noname  D3 YELLOW
+  (    1 Earth )
+  (    2 Net-(D3-Pad2) )
+ )
+ ( /563D8DD3 $noname  D4 BLUE
+  (    1 Net-(D4-Pad1) )
+  (    2 Net-(D4-Pad2) )
+ )
+)
+*
